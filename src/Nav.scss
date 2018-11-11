@@ -1,0 +1,19 @@
+// Imports
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+// Navigation variables
+$logo-font: 'Oxygen', sans-serif;
+$border-grey: #e0e0e0;
+
+// Navigation styles
+#navigation {
+    .navbar {
+        border-bottom: 1px solid $border-grey;
+        .navbar-brand {
+            font-family: $logo-font;
+            letter-spacing: 3px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+}
